@@ -18,7 +18,7 @@ export const LONG_LINE = '[line over 16 KB, not read]';
 const HEADER = /^([A-Za-z][A-Za-z0-9-]*)(?:\(([^()\r\n]+)\))?(!)?: (\S.*)$/;
 // A footer is a word token, or BREAKING CHANGE, then ": " or " #" (items 8 and 9).
 const FOOTER = /^(BREAKING CHANGE|[A-Za-z][A-Za-z0-9-]*)(?:: | #)/;
-// BREAKING CHANGE and its synonym BREAKING-CHANGE, in upper case (items 11, 15 and 16).
+// BREAKING CHANGE and its synonym BREAKING-CHANGE, in upper case (items 12, 15 and 16).
 const BREAKING_FOOTER = /^BREAKING[ -]CHANGE:(?:\s|$)/;
 const BREAKING_ANY_CASE = /^breaking[ -]change:/i;
 const TYPE_NAME = /^[a-z][a-z0-9-]*$/;
