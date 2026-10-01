@@ -1,0 +1,7 @@
+# Every change is reviewed by a maintainer.
+* @innerluxesdev
+
+# The version rules, the commit parser and the checks decide every line of the report; changes need extra care.
+/src/semver.js @innerluxesdev
+/src/commits.js @innerluxesdev
+/src/check.js @innerluxesdev
