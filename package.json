@@ -1,0 +1,46 @@
+{
+  "name": "version-bump-check",
+  "version": "1.0.0",
+  "description": "Check that a release's version number matches the changes in it: Semantic Versioning 2.0.0 rules applied to Conventional Commits messages. Finds breaking changes in minor releases, skipped versions and invalid versions. Reads files, never runs git, opens no network connection, no dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "version-bump-check": "bin/version-bump-check.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "test:coverage": "node --test --experimental-test-coverage \"test/*.test.js\"",
+    "check": "node tools/check.mjs",
+    "example": "node tools/example.mjs"
+  },
+  "keywords": [
+    "semver",
+    "conventional-commits",
+    "versioning",
+    "release",
+    "changelog",
+    "ci",
+    "cli"
+  ],
+  "author": "INNERLUXES <info@innerluxes.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INNERLUXES/version-bump-check.git"
+  },
+  "homepage": "https://innerluxes.dev/web-development/enterprise"
+}
