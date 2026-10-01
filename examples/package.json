@@ -1,0 +1,6 @@
+{
+  "name": "orders-service",
+  "version": "1.5.0",
+  "private": true,
+  "description": "A made-up orders service, used by the version-bump-check example."
+}
